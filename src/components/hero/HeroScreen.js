@@ -45,16 +45,14 @@ export const HeroScreen = () => {
 
   const ExpandableComponent = (data) => (
     <div className="expanded-item">
-      <p> Age: {data.data.age}</p>
-      <p> Name: {data.data.name}</p>
-      <p> Professions: {data.data.professions.join(", ")}</p>
-      <p> Friends: {data.data.friends.join(", ")}</p>
-      <p> Weight: {data.data.weight}</p>
-      <p> Height: {data.data.height}</p>
-      <p> Hair Color: {data.data.hair_color}</p>
-      <p>
-        <img width="230" height="220" src={data.data.thumbnail} />
-      </p>
+      <p> <b>Age:</b> {data.data.age}</p>
+      <p> <b>Name:</b> {data.data.name}</p>
+      <p> <b>Professions:</b> {data.data.professions.join(", ")}</p>
+      <p> <b>Friends:</b>{data.data.friends.join(", ")}</p>
+      <p> <b>Weight:</b>{data.data.weight}</p>
+      <p> <b>Height:</b> {data.data.height}</p>
+      <p> <b>Hair Color:</b> {data.data.hair_color}</p>
+      <p> <img width="230" height="220" src={data.data.thumbnail} /></p>
     </div>
   );
   return (
