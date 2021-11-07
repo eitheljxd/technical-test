@@ -16,7 +16,7 @@ export const HeroScreen = () => {
   const subHeaderComponentMemo = React.useMemo(() => {
     return (
       <input
-        placeholder="Search data"
+        placeholder="Search data for name"
         className="heroes__title-input"
         style={{ margin: 0 }}
         onChange={(e) => setFilterText(e.target.value)}
@@ -51,6 +51,9 @@ export const HeroScreen = () => {
       <p> Weight: {data.data.weight}</p>
       <p> Height: {data.data.height}</p>
       <p> Hair Color: {data.data.hair_color}</p>
+      <p>
+        <img src={data.data.thumbnail} />
+      </p>
     </div>
   );
   return (
