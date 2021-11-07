@@ -11,6 +11,7 @@ export const HeroesAppBar = () => {
 
   return (
     <div className="heroes__appbar">
+      <span>Hello, {name}</span>
       <span>
         <button className="btn" onClick={hanleLogout}>
           Logout
