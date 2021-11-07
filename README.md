@@ -6,6 +6,8 @@ This project has a login with Firebase. Feel free to create a new user or login 
 
 You can see the demo online: https://react-test-technical.herokuapp.com/
 
+This application has continuous integration with heroku. Feel free to push this branch to launch a new build. This process can take up to 5 minutes.
+
 ### `npm start` or `yarn start`
 
 Runs the app in development mode.<br>
