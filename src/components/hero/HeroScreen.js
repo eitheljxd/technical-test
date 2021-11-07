@@ -6,6 +6,7 @@ import DataTable from "react-data-table-component";
 export const HeroScreen = () => {
   const { heroes } = useSelector((state) => state.heroes);
   const [filterText, setFilterText] = React.useState("");
+  const { loading } = useSelector((state) => state.ui);
   const [resetPaginationToggle, setResetPaginationToggle] =
     React.useState(false);
   const filteredItems = heroes.filter(
@@ -52,7 +53,7 @@ export const HeroScreen = () => {
       <p> Height: {data.data.height}</p>
       <p> Hair Color: {data.data.hair_color}</p>
       <p>
-        <img src={data.data.thumbnail} />
+        <img width="230" height="220" src={data.data.thumbnail} />
       </p>
     </div>
   );
@@ -71,6 +72,7 @@ export const HeroScreen = () => {
             persistTableHead
             highlightOnHover
             expandableRows
+            progressPending={loading}
             expandableRowDisabled={(row) => row.disabled}
             expandableRowsComponent={ExpandableComponent}
           />
