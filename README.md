@@ -2,7 +2,9 @@
 
 Technical test developed with React and Redux.
 
-### This project has a login with Firebase. Feel free to create a new user or login with the user: test@test.com -> 123456
+This project has a login with Firebase. Feel free to create a new user or login with the user: test@test.com -> 123456
+
+You can see the demo online: https://react-test-technical.herokuapp.com/
 
 ### `npm start` or `yarn start`
 
