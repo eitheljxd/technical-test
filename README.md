@@ -2,6 +2,8 @@
 
 Technical test developed with React and Redux.
 
+### This project has a login with Firebase. Feel free to create a new user or login with the user: test@test.com -> 123456
+
 ### `npm start` or `yarn start`
 
 Runs the app in development mode.<br>
