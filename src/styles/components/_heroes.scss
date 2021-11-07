@@ -1,0 +1,47 @@
+.heroes__main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.heroes__appbar {
+  align-items: center;
+  background-color: $primary;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+  height: 20px;
+}
+
+.heroes__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+}
+
+.heroes__title-input {
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.heroes__title-input {
+  color: $dark-grey;
+  border-color: 1px solid black;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.heroes__content header {
+  display: contents;
+}
+
+.expanded-item {
+  margin: 10px;
+  margin-left: 50px;
+}
