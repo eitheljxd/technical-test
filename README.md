@@ -8,6 +8,12 @@ You can see the demo online: https://react-test-technical.herokuapp.com/
 
 This application has continuous integration with heroku. Feel free to push this branch to launch a new build. This process can take up to 5 minutes.
 
+First
+
+### `npm install` or `yarn install`
+
+Then 
+
 ### `npm start` or `yarn start`
 
 Runs the app in development mode.<br>
@@ -20,7 +26,6 @@ You will see the build errors and lint warnings in the console.
 <img src='https://cdn.jsdelivr.net/gh/marionebl/create-react-app@9f6282671c54f0874afd37a72f6689727b562498/screencast-error.svg' width='600' alt='Build errors'>
 </p>
 
-### `npm install` or `yarn install`
 
 ### `npm test` or `yarn test`
 
